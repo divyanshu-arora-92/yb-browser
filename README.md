@@ -68,5 +68,5 @@ The Web Automation Agent is responsible for safely operating the browser. It wor
   * Includes terminating the loop if the goal is complete
   * Or returning control to the Coordinator if user input is required
 
-
-
+---
+![Flow Diagram](https://raw.githubusercontent.com/divyanshu-arora-92/yb-browser/main/flow_diagram.png)
