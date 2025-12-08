@@ -13,6 +13,10 @@ This POC takes a different approach. It combines:
 
 Together, this enables agents to execute multi-step web tasks—reading the page, planning the next step, interacting with elements, recovering from failures, and completing workflows with higher reliability than naive LLM-driven automation.
 
+## Demo Videos
+[![Video Title](https://img.youtube.com/vi/78uwOKg6SyY/0.jpg)](https://www.youtube.com/watch?v=78uwOKg6SyY)
+[![Video Title](https://img.youtube.com/vi/seUN-dscFiw/0.jpg)](https://www.youtube.com/watch?v=seUN-dscFiw)
+
 ## Solution Summary
 
 The POC implements a **two-agent architecture** that connects LLM-based reasoning with deterministic browser automation using Playwright. The system treats each web task as a guided loop: interpret intent → observe browser → decide next action → execute → repeat until completion.
